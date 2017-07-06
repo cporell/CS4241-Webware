@@ -1,0 +1,249 @@
+/* Main.css created by Connor Porell for CS4241 Project 7*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+body
+{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", 'Montserrat', ssans-serif, 'Raleway', sans-serif, 'Lobster', cursive;
+  background-color: #D8CAA8;
+}
+
+section
+{
+    margin: 20px 20px 20px 20px;
+}
+
+section.left
+{
+    float: left;
+    margin: 0;
+    width: 50%;
+    padding-bottom: 3%;
+    margin-left: 10%;
+}
+
+section.right
+{
+    float: right;
+    margin: 0;
+    width: 50%;
+    padding-bottom: 3%;
+}
+
+header
+{
+    background-color: #7CAC2F; 
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+footer
+{
+    background-color: #7CAC2F; 
+    text-align: center;
+}
+
+hr
+{
+     padding: 0; 
+     border: none; 
+     border-top: medium double #333; 
+     color: #333; 
+     text-align: center;
+     /* CSS code for <hr> from https://css-tricks.com/examples/hrs/ */
+}
+
+h1
+{
+  margin: 10px 0;
+  font-size: 3em;
+  font-family: 'Lobster';
+  color: #382513;
+}
+
+h2
+{
+    margin: 3px 3px 3px 3px;
+    font-family: 'Lobster';
+    font-size: 1.7em;
+    color: #382513;
+}
+
+h3
+{
+    font-family: 'Raleway';
+}
+
+.header-note
+{
+  margin: 5px 0 0 0;
+  font-family: 'Raleway';
+  color: #284907;
+  font-size: 1.25em;
+}
+
+.copyright
+{
+    text-align:center;
+  font-size: 1em;
+  margin: 3px 0 0 0;
+}
+
+.center
+{
+    text-align : center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.picCenter
+{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+.tableCenter
+{
+    margin-left : auto;
+    margin-right : auto;
+}
+
+table
+{
+    border: groove;
+    border-collapse:collapse;
+    width: 60%;
+}
+
+table.rev
+{
+    border: none;
+    width: 100%;
+}
+
+table.rev td
+{
+    border : none;
+}
+
+thead
+{
+    font-family: 'Montserrat';
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+th
+{
+    border:double;
+    border-width:medium;
+    padding: 2px 5px 2px 5px;
+}
+
+td
+{
+    border:groove;
+    border-width:thin;
+    padding: 2px 5px 2px 5px;
+}
+
+td.r
+{
+    width: 30%;
+}
+td.l
+{
+    width: 60%;
+}
+
+tr
+{
+    font-family: 'Raleway';
+}
+
+a
+{
+    color: #382513;
+    text-decoration: none;
+    font-variant: normal;
+    font-style:normal;
+}
+
+p
+{
+    font-family: 'Raleway'
+}
+
+span
+{
+    font-family: 'Montserrat';
+    font-size: 1.3em;
+    color: #284907;
+    padding-bottom:8px;
+    padding-top:0px;
+}
+
+.bgColor1
+{
+    background-color: #284907;
+    text-decoration:none;
+    color: #FFFFFF;
+}
+
+input
+{
+    font-family: "Montserrat";
+}
+
+input.fullList
+{
+    font-size: 1.5em;
+}
+
+img.poster
+{
+    height: 225px;
+    width: 150px;
+    float: right;
+    clear: both;
+    margin-top: 2%;
+}
+
+div
+{
+    margin: 5px 5px 5px 5px;
+}
+
+div.moviesdiv
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+div.review
+{
+    border: 5px 5px 5px 5px;
+    margin: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    outline: #382513 double thick;
+    z-index: 3;
+}
+
+div.inner
+{
+    margin: 7px 7px 5px 7px;
+    padding-bottom: 1px;
+}
+
+div.revbody
+{
+    float:left;
+    clear:both;
+    width:50%;
+}

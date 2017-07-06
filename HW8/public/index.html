@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Connor's Reviews</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Author: Connor Porell cgporell@wpi.edu-->
+    <!-- https://www.cgporell-cs4241-project8.herokuapp.com -->
+</head>
+
+<body id="thebody">
+    <header>
+        <h1>Connor's Post Board</h1>
+        <p class="header-note">Chat with random strangers!<br />What could possibly go wrong?...</p><br />
+    </header>
+    <div id="posts" class="posts">
+    </div>
+    <div id="submission" class="submission">
+        <form name="submit-post-form" id="submit-post-form" onsubmit="return false;">
+            <textarea id="postbody" cols="60" rows="16" ...></textarea>
+            <input type="submit" id="postsubmitbutton" class="submitpost" value="Submit Post" />
+        </form>
+    </div>
+    <div id="twitterfeed" class="twitterfeed">
+
+    </div>
+</body>
+
+</html>
+<script src="underscore.js"> </script>
+<script src="socket.io.js"></script>
+<script src="template.js" type="text/javascript"></script>
+<script src="index.js" type="text/javascript"></script>
+<script>
+    var button = document.getElementById("postsubmitbutton");
+    button.addEventListener("mousedown", addPost);
+</script>
